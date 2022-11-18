@@ -1,0 +1,542 @@
+CRITICAL - 2022-11-14 07:07:45 --> Call to undefined function current_user()
+in APPPATH\Views\navbar.php on line 44.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('navbar', [], true)
+ 4 APPPATH\Views\layout.php(12): view('navbar')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(12): view('layout', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 07:20:41 --> Class 'App\Models\ItemModel' not found
+in APPPATH\Controllers\Items.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 07:24:52 --> Undefined variable: items
+in APPPATH\Views\items\index.php on line 24.
+ 1 APPPATH\Views\items\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: items', 'APPPATH\\Views\\items\\index.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/index', [], true)
+ 5 APPPATH\Views\layout.php(13): view('items/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout', [], true)
+ 9 APPPATH\Controllers\Items.php(12): view('layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 07:25:05 --> Undefined variable: items
+in APPPATH\Views\items\index.php on line 24.
+ 1 APPPATH\Views\items\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: items', 'APPPATH\\Views\\items\\index.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/index', [], true)
+ 5 APPPATH\Views\layout.php(13): view('items/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout', [], true)
+ 9 APPPATH\Controllers\Items.php(12): view('layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 08:44:06 --> Call to a member function get() on null
+in APPPATH\Controllers\Items.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Items->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 09:00:12 --> Undefined variable: items
+in APPPATH\Views\items\index.php on line 24.
+ 1 APPPATH\Views\items\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: items', 'APPPATH\\Views\\items\\index.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/index', [], true)
+ 5 APPPATH\Views\layout.php(13): view('items/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout', [], true)
+ 9 APPPATH\Controllers\Items.php(48): view('layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->create()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 09:01:03 --> Undefined variable: items
+in APPPATH\Views\items\index.php on line 24.
+ 1 APPPATH\Views\items\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: items', 'APPPATH\\Views\\items\\index.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/index', [], true)
+ 5 APPPATH\Views\layout.php(13): view('items/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout', [], true)
+ 9 APPPATH\Controllers\Items.php(48): view('layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->create()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 09:01:18 --> Undefined variable: items
+in APPPATH\Views\items\index.php on line 24.
+ 1 APPPATH\Views\items\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: items', 'APPPATH\\Views\\items\\index.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/index', [], true)
+ 5 APPPATH\Views\layout.php(13): view('items/index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout', [], true)
+ 9 APPPATH\Controllers\Items.php(48): view('layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->create()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-14 21:34:39 --> mysqli_sql_exception: Table 'projectteambeta.items' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Items->index()
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#12 {main}
+CRITICAL - 2022-11-14 21:34:39 --> Table 'projectteambeta.items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `items`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `items`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `items`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `items`', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-14 21:34:50 --> mysqli_sql_exception: Table 'projectteambeta.items' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Items->index()
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#12 {main}
+CRITICAL - 2022-11-14 21:34:50 --> Table 'projectteambeta.items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `items`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `items`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `items`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `items`', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-14 21:39:24 --> mysqli_sql_exception: Table 'projectteambeta.items' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Items->index()
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#12 {main}
+CRITICAL - 2022-11-14 21:39:24 --> Table 'projectteambeta.items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `items`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `items`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `items`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `items`', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-14 21:46:26 --> mysqli_sql_exception: Table 'projectteambeta.items' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `it...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `it...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `it...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `it...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\ItemModel.php(77): CodeIgniter\BaseModel->save(Array)
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Items.php(52): App\Models\ItemModel->create_data(Object(CodeIgniter\HTTP\IncomingRequest))
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Items->create()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+#12 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#15 {main}
+CRITICAL - 2022-11-14 21:46:26 --> Table 'projectteambeta.items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `items` (`name`, `publisher`, `book_category`, `price`, `qty`) VALUES (\'Test\', NULL, \'Komik\', \'12000\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `items` (`name`, `publisher`, `book_category`, `price`, `qty`) VALUES (\'Test\', NULL, \'Komik\', \'12000\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `items` (`name`, `publisher`, `book_category`, `price`, `qty`) VALUES (\'Test\', NULL, \'Komik\', \'12000\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `items` (`name`, `publisher`, `book_category`, `price`, `qty`) VALUES (:name:, :publisher:, :book_category:, :price:, :qty:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\ItemModel.php(77): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Items.php(52): App\Models\ItemModel->create_data(Object(CodeIgniter\HTTP\IncomingRequest))
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->create()
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-14 21:54:07 --> mysqli_sql_exception: Table 'projectteambeta.items' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `it...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `it...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `it...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `it...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\ItemModel.php(77): CodeIgniter\BaseModel->save(Array)
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Items.php(52): App\Models\ItemModel->create_data(Object(CodeIgniter\HTTP\IncomingRequest))
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Items->create()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+#12 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#15 {main}
+CRITICAL - 2022-11-14 21:54:07 --> Table 'projectteambeta.items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `items` (`name`, `publisher`, `book_category`, `price`, `qty`) VALUES (\'Test\', NULL, \'Komik\', \'12000\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `items` (`name`, `publisher`, `book_category`, `price`, `qty`) VALUES (\'Test\', NULL, \'Komik\', \'12000\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `items` (`name`, `publisher`, `book_category`, `price`, `qty`) VALUES (\'Test\', NULL, \'Komik\', \'12000\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `items` (`name`, `publisher`, `book_category`, `price`, `qty`) VALUES (:name:, :publisher:, :book_category:, :price:, :qty:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\ItemModel.php(77): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Items.php(52): App\Models\ItemModel->create_data(Object(CodeIgniter\HTTP\IncomingRequest))
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->create()
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-14 21:54:18 --> mysqli_sql_exception: Table 'projectteambeta.items' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Items->index()
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#12 {main}
+CRITICAL - 2022-11-14 21:54:18 --> Table 'projectteambeta.items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `items`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `items`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `items`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `items`', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-14 21:59:59 --> mysqli_sql_exception: Table 'projectteambeta.items' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Items->index()
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#12 {main}
+CRITICAL - 2022-11-14 21:59:59 --> Table 'projectteambeta.items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `items`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `items`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `items`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `items`', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-14 22:01:41 --> mysqli_sql_exception: Table 'projectteambeta.items' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Items->index()
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#12 {main}
+CRITICAL - 2022-11-14 22:01:41 --> Table 'projectteambeta.items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `items`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `items`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `items`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `items`', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-14 22:10:50 --> mysqli_sql_exception: Table 'projectteambeta.items' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Items->index()
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#12 {main}
+CRITICAL - 2022-11-14 22:10:50 --> Table 'projectteambeta.items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `items`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `items`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `items`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `items`', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-14 22:11:44 --> mysqli_sql_exception: Table 'projectteambeta.items' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Items->index()
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#12 {main}
+CRITICAL - 2022-11-14 22:11:44 --> Table 'projectteambeta.items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `items`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `items`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `items`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `items`', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-14 23:14:11 --> mysqli_sql_exception: Table 'projectteambeta.items' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Items->index()
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#12 {main}
+CRITICAL - 2022-11-14 23:14:11 --> Table 'projectteambeta.items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `items`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `items`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `items`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `items`', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-14 23:50:51 --> mysqli_sql_exception: Table 'projectteambeta.items' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Items->index()
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#12 {main}
+CRITICAL - 2022-11-14 23:50:51 --> Table 'projectteambeta.items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `items`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `items`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `items`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `items`', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-14 23:51:05 --> mysqli_sql_exception: Table 'projectteambeta.items' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Items->index()
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#12 {main}
+CRITICAL - 2022-11-14 23:51:05 --> Table 'projectteambeta.items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `items`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `items`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `items`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `items`', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\ItemModel.php(45): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Items.php(26): App\Models\ItemModel->get_all_data()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

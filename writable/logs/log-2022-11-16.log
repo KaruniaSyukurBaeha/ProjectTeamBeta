@@ -1,0 +1,944 @@
+CRITICAL - 2022-11-16 08:03:50 --> Cannot use object of type stdClass as array
+in APPPATH\Views\items\_items.php on line 22.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/_items', [], true)
+ 4 APPPATH\Views\items\index.php(24): view('items/_items', [...])
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/index', [], true)
+ 8 APPPATH\Views\layout.php(14): view('items/index')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout', [], true)
+12 APPPATH\Controllers\Items.php(27): view('layout', [...])
+13 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+14 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 08:23:38 --> Cannot use object of type stdClass as array
+in APPPATH\Views\items\_items.php on line 22.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/_items', [], true)
+ 4 APPPATH\Views\items\index.php(24): view('items/_items', [...])
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/index', [], true)
+ 8 APPPATH\Views\layout.php(14): view('items/index')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout', [], true)
+12 APPPATH\Controllers\Items.php(27): view('layout', [...])
+13 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+14 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 08:23:45 --> Cannot use object of type stdClass as array
+in APPPATH\Views\items\_items.php on line 22.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/_items', [], true)
+ 4 APPPATH\Views\items\index.php(24): view('items/_items', [...])
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/index', [], true)
+ 8 APPPATH\Views\layout.php(14): view('items/index')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout', [], true)
+12 APPPATH\Controllers\Items.php(27): view('layout', [...])
+13 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+14 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 08:24:22 --> Cannot use object of type stdClass as array
+in APPPATH\Views\items\_items.php on line 22.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/_items', [], true)
+ 4 APPPATH\Views\items\index.php(24): view('items/_items', [...])
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/index', [], true)
+ 8 APPPATH\Views\layout.php(14): view('items/index')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout', [], true)
+12 APPPATH\Controllers\Items.php(27): view('layout', [...])
+13 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+14 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 08:24:33 --> Cannot use object of type stdClass as array
+in APPPATH\Views\items\_items.php on line 22.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/_items', [], true)
+ 4 APPPATH\Views\items\index.php(24): view('items/_items', [...])
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/index', [], true)
+ 8 APPPATH\Views\layout.php(14): view('items/index')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout', [], true)
+12 APPPATH\Controllers\Items.php(27): view('layout', [...])
+13 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+14 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 08:44:39 --> Cannot use object of type stdClass as array
+in APPPATH\Views\items\_items.php on line 22.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/_items', [], true)
+ 4 APPPATH\Views\items\index.php(24): view('items/_items', [...])
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/index', [], true)
+ 8 APPPATH\Views\layout.php(14): view('items/index')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout', [], true)
+12 APPPATH\Controllers\Items.php(27): view('layout', [...])
+13 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+14 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 08:48:31 --> Undefined variable: order_number
+in APPPATH\Views\items\_items.php on line 22.
+ 1 APPPATH\Views\items\_items.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: order_number', 'APPPATH\\Views\\items\\_items.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\_items.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/_items', [], true)
+ 5 APPPATH\Views\items\index.php(24): view('items/_items', [...])
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/index', [], true)
+ 9 APPPATH\Views\layout.php(14): view('items/index')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout', [], true)
+13 APPPATH\Controllers\Items.php(27): view('layout', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 08:49:03 --> Undefined variable: item
+in APPPATH\Views\items\_items.php on line 22.
+ 1 APPPATH\Views\items\_items.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: item', 'APPPATH\\Views\\items\\_items.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\_items.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/_items', [], true)
+ 5 APPPATH\Views\items\index.php(24): view('items/_items', [...])
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/index', [], true)
+ 9 APPPATH\Views\layout.php(14): view('items/index')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout', [], true)
+13 APPPATH\Controllers\Items.php(27): view('layout', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 08:50:54 --> Undefined variable: item
+in APPPATH\Views\items\_items.php on line 22.
+ 1 APPPATH\Views\items\_items.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: item', 'APPPATH\\Views\\items\\_items.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\_items.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/_items', [], true)
+ 5 APPPATH\Views\items\index.php(24): view('items/_items', [...])
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/index', [], true)
+ 9 APPPATH\Views\layout.php(14): view('items/index')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout', [], true)
+13 APPPATH\Controllers\Items.php(27): view('layout', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 08:53:44 --> Undefined variable: item
+in APPPATH\Views\items\_items.php on line 22.
+ 1 APPPATH\Views\items\_items.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: item', 'APPPATH\\Views\\items\\_items.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\_items.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/_items', [], true)
+ 5 APPPATH\Views\items\index.php(24): view('items/_items', [...])
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/index', [], true)
+ 9 APPPATH\Views\layout.php(14): view('items/index')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout', [], true)
+13 APPPATH\Controllers\Items.php(27): view('layout', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 08:55:06 --> Undefined index: id
+in APPPATH\Views\items\_items.php on line 22.
+ 1 APPPATH\Views\items\_items.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Views\\items\\_items.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\_items.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/_items', [], true)
+ 5 APPPATH\Views\items\index.php(24): view('items/_items', [...])
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/index', [], true)
+ 9 APPPATH\Views\layout.php(14): view('items/index')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout', [], true)
+13 APPPATH\Controllers\Items.php(27): view('layout', [...])
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 09:00:35 --> Cannot use object of type stdClass as array
+in APPPATH\Views\items\_items.php on line 22.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/_items', [], true)
+ 4 APPPATH\Views\items\index.php(24): view('items/_items', [...])
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\items\\index.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('items/index', [], true)
+ 8 APPPATH\Views\layout.php(14): view('items/index')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout', [], true)
+12 APPPATH\Controllers\Items.php(27): view('layout', [...])
+13 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->index()
+14 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-16 19:53:13 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'projectteambeta', 3306, '', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\UserModel.php(86): CodeIgniter\Model->__call('get', Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Sessions.php(32): App\Models\UserModel->auth_user('test@gmail.com', '123')
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Sessions->create()
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sessions))
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\UserModel.php(86): CodeIgniter\Model->__call('get', Array)
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Sessions.php(32): App\Models\UserModel->auth_user('test@gmail.com', '123')
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Sessions->create()
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sessions))
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#11 {main}
+CRITICAL - 2022-11-16 19:53:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE LOWER(email) = :LOWER(email):', [...], false)
+ 3 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\UserModel.php(86): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\Sessions.php(32): App\Models\UserModel->auth_user('test@gmail.com', '123')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sessions->create()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sessions))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-16 19:54:29 --> mysqli_sql_exception: Table 'projectteambeta.users' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\UserModel.php(86): CodeIgniter\Model->__call('get', Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Sessions.php(32): App\Models\UserModel->auth_user('test@gmail.com', '123')
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Sessions->create()
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sessions))
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#12 {main}
+CRITICAL - 2022-11-16 19:54:29 --> Table 'projectteambeta.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE LOWER(email) = \'test@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE LOWER(email) = \'test@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE LOWER(email) = \'test@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE LOWER(email) = :LOWER(email):', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\UserModel.php(86): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Sessions.php(32): App\Models\UserModel->auth_user('test@gmail.com', '123')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sessions->create()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sessions))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-16 19:54:36 --> mysqli_sql_exception: Table 'projectteambeta.users' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\UserModel.php(86): CodeIgniter\Model->__call('get', Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Sessions.php(32): App\Models\UserModel->auth_user('test@gmail.com', '123')
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Sessions->create()
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sessions))
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#12 {main}
+CRITICAL - 2022-11-16 19:54:36 --> Table 'projectteambeta.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE LOWER(email) = \'test@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE LOWER(email) = \'test@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE LOWER(email) = \'test@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE LOWER(email) = :LOWER(email):', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\UserModel.php(86): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Sessions.php(32): App\Models\UserModel->auth_user('test@gmail.com', '123')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sessions->create()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sessions))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-16 20:03:35 --> mysqli_sql_exception: Table 'projectteambeta.user' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\UserModel.php(86): CodeIgniter\Model->__call('get', Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Sessions.php(32): App\Models\UserModel->auth_user('test@gmail.com', '123')
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Sessions->create()
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sessions))
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#12 {main}
+CRITICAL - 2022-11-16 20:03:35 --> Table 'projectteambeta.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE LOWER(email) = \'test@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE LOWER(email) = \'test@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE LOWER(email) = \'test@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE LOWER(email) = :LOWER(email):', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\UserModel.php(86): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Sessions.php(32): App\Models\UserModel->auth_user('test@gmail.com', '123')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sessions->create()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sessions))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-16 20:04:42 --> mysqli_sql_exception: Table 'projectteambeta.user' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\UserModel.php(86): CodeIgniter\Model->__call('get', Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Sessions.php(32): App\Models\UserModel->auth_user('test@gmail.com', '123')
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Sessions->create()
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sessions))
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#12 {main}
+CRITICAL - 2022-11-16 20:04:42 --> Table 'projectteambeta.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE LOWER(email) = \'test@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE LOWER(email) = \'test@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE LOWER(email) = \'test@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE LOWER(email) = :LOWER(email):', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\UserModel.php(86): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Sessions.php(32): App\Models\UserModel->auth_user('test@gmail.com', '123')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sessions->create()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sessions))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-16 20:56:54 --> mysqli_sql_exception: Table 'projectteambeta.users' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\UserModel.php(86): CodeIgniter\Model->__call('get', Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Sessions.php(32): App\Models\UserModel->auth_user('test@gmail.com', '123')
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Sessions->create()
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sessions))
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#12 {main}
+CRITICAL - 2022-11-16 20:56:54 --> Table 'projectteambeta.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE LOWER(email) = \'test@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE LOWER(email) = \'test@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE LOWER(email) = \'test@gmail.com\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE LOWER(email) = :LOWER(email):', [...], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\UserModel.php(86): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Sessions.php(32): App\Models\UserModel->auth_user('test@gmail.com', '123')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sessions->create()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sessions))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-16 20:57:23 --> mysqli_sql_exception: Table 'projectteambeta.users' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\UserModel.php(58): CodeIgniter\BaseModel->paginate(5, 'users')
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Users.php(21): App\Models\UserModel->search_data('')
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Users->index()
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#13 {main}
+CRITICAL - 2022-11-16 20:57:23 --> Table 'projectteambeta.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE :LOWER(name): ESCAPE \'!\'
+OR  LOWER(email) LIKE :LOWER(email): ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Models\UserModel.php(58): CodeIgniter\BaseModel->paginate(5, 'users')
+ 8 APPPATH\Controllers\Users.php(21): App\Models\UserModel->search_data('ROOTPATH\\public')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Users->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-16 20:57:41 --> mysqli_sql_exception: Table 'projectteambeta.users' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\UserModel.php(58): CodeIgniter\BaseModel->paginate(5, 'users')
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Users.php(21): App\Models\UserModel->search_data('')
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Users->index()
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#13 {main}
+CRITICAL - 2022-11-16 20:57:41 --> Table 'projectteambeta.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE :LOWER(name): ESCAPE \'!\'
+OR  LOWER(email) LIKE :LOWER(email): ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Models\UserModel.php(58): CodeIgniter\BaseModel->paginate(5, 'users')
+ 8 APPPATH\Controllers\Users.php(21): App\Models\UserModel->search_data('ROOTPATH\\public')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Users->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-16 21:01:12 --> mysqli_sql_exception: Table 'projectteambeta.users' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\UserModel.php(58): CodeIgniter\BaseModel->paginate(5, 'users')
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Users.php(21): App\Models\UserModel->search_data('')
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Users->index()
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#13 {main}
+CRITICAL - 2022-11-16 21:01:12 --> Table 'projectteambeta.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE :LOWER(name): ESCAPE \'!\'
+OR  LOWER(email) LIKE :LOWER(email): ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Models\UserModel.php(58): CodeIgniter\BaseModel->paginate(5, 'users')
+ 8 APPPATH\Controllers\Users.php(21): App\Models\UserModel->search_data('ROOTPATH\\public')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Users->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-16 21:03:50 --> mysqli_sql_exception: Table 'projectteambeta.user' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\UserModel.php(58): CodeIgniter\BaseModel->paginate(5, 'users')
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Users.php(21): App\Models\UserModel->search_data('')
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Users->index()
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#13 {main}
+CRITICAL - 2022-11-16 21:03:50 --> Table 'projectteambeta.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `user`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `user`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `user`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `user`
+WHERE LOWER(name) LIKE :LOWER(name): ESCAPE \'!\'
+OR  LOWER(email) LIKE :LOWER(email): ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Models\UserModel.php(58): CodeIgniter\BaseModel->paginate(5, 'users')
+ 8 APPPATH\Controllers\Users.php(21): App\Models\UserModel->search_data('ROOTPATH\\public')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Users->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-16 21:04:01 --> mysqli_sql_exception: Table 'projectteambeta.users' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\UserModel.php(58): CodeIgniter\BaseModel->paginate(5, 'users')
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Users.php(21): App\Models\UserModel->search_data('')
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Users->index()
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#13 {main}
+CRITICAL - 2022-11-16 21:04:01 --> Table 'projectteambeta.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE :LOWER(name): ESCAPE \'!\'
+OR  LOWER(email) LIKE :LOWER(email): ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Models\UserModel.php(58): CodeIgniter\BaseModel->paginate(5, 'users')
+ 8 APPPATH\Controllers\Users.php(21): App\Models\UserModel->search_data('ROOTPATH\\public')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Users->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-16 21:11:23 --> mysqli_sql_exception: Table 'projectteambeta.items' doesn't exist in engine in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `it...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `it...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `it...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `it...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\ItemModel.php(77): CodeIgniter\BaseModel->save(Array)
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Items.php(52): App\Models\ItemModel->create_data(Object(CodeIgniter\HTTP\IncomingRequest))
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Items->create()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+#12 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#15 {main}
+CRITICAL - 2022-11-16 21:11:23 --> Table 'projectteambeta.items' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `items` (`name`, `publisher`, `book_category`, `price`, `qty`, `image_name`, `status_id`) VALUES (\'test\', \'Erlangga\', \'Komik\', \'20000\', \'1\', \'1668654683_5c3fe3b88980bad4a232.jpg\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `items` (`name`, `publisher`, `book_category`, `price`, `qty`, `image_name`, `status_id`) VALUES (\'test\', \'Erlangga\', \'Komik\', \'20000\', \'1\', \'1668654683_5c3fe3b88980bad4a232.jpg\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `items` (`name`, `publisher`, `book_category`, `price`, `qty`, `image_name`, `status_id`) VALUES (\'test\', \'Erlangga\', \'Komik\', \'20000\', \'1\', \'1668654683_5c3fe3b88980bad4a232.jpg\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `items` (`name`, `publisher`, `book_category`, `price`, `qty`, `image_name`, `status_id`) VALUES (:name:, :publisher:, :book_category:, :price:, :qty:, :image_name:, :status_id:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\ItemModel.php(77): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\Items.php(52): App\Models\ItemModel->create_data(Object(CodeIgniter\HTTP\IncomingRequest))
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Items->create()
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Items))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-16 21:17:05 --> mysqli_sql_exception: Table 'projectteambeta.migrations' doesn't exist in engine in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MigrationRunner.php(653): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MigrationRunner.php(180): CodeIgniter\Database\MigrationRunner->getHistory('')
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+ERROR - 2022-11-16 21:19:20 --> mysqli_sql_exception: Table 'projectteambeta.users' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\UserModel.php(58): CodeIgniter\BaseModel->paginate(5, 'users')
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Users.php(21): App\Models\UserModel->search_data('')
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Users->index()
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#13 {main}
+CRITICAL - 2022-11-16 21:19:20 --> Table 'projectteambeta.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE :LOWER(name): ESCAPE \'!\'
+OR  LOWER(email) LIKE :LOWER(email): ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Models\UserModel.php(58): CodeIgniter\BaseModel->paginate(5, 'users')
+ 8 APPPATH\Controllers\Users.php(21): App\Models\UserModel->search_data('ROOTPATH\\public')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Users->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-16 21:30:57 --> mysqli_sql_exception: Table 'projectteambeta.migrations' doesn't exist in engine in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MigrationRunner.php(653): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MigrationRunner.php(180): CodeIgniter\Database\MigrationRunner->getHistory('')
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+ERROR - 2022-11-16 21:34:46 --> mysqli_sql_exception: Table 'projectteambeta.users' doesn't exist in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Models\UserModel.php(58): CodeIgniter\BaseModel->paginate(5, 'users')
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\app\Controllers\Users.php(21): App\Models\UserModel->search_data('')
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(927): App\Controllers\Users->index()
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Server\rewrite.php(46): require_once('E:\\Kumpulan Pro...')
+#13 {main}
+CRITICAL - 2022-11-16 21:34:46 --> Table 'projectteambeta.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE \'%%\' ESCAPE \'!\'
+OR  LOWER(email) LIKE \'%%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE LOWER(name) LIKE :LOWER(name): ESCAPE \'!\'
+OR  LOWER(email) LIKE :LOWER(email): ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1106): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Models\UserModel.php(58): CodeIgniter\BaseModel->paginate(5, 'users')
+ 8 APPPATH\Controllers\Users.php(21): App\Models\UserModel->search_data('ROOTPATH\\public')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Users->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-16 21:51:41 --> mysqli_sql_exception: Table 'projectteambeta.migrations' doesn't exist in engine in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MigrationRunner.php(653): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MigrationRunner.php(180): CodeIgniter\Database\MigrationRunner->getHistory('')
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+ERROR - 2022-11-16 21:53:48 --> mysqli_sql_exception: Table 'projectteambeta.migrations' doesn't exist in engine in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MigrationRunner.php(653): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MigrationRunner.php(180): CodeIgniter\Database\MigrationRunner->getHistory('')
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+ERROR - 2022-11-16 21:55:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-team-beta CHARACTER SET utf8 COLLATE utf8_general_ci' at line 1 in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE DATABASE...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('CREATE DATABASE...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE DATABASE...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\Forge.php(223): CodeIgniter\Database\BaseConnection->query('CREATE DATABASE...')
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Forge->createDatabase('project-team-be...')
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#12 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\spark(98): CodeIgniter\CLI\Console->run()
+#13 {main}
+ERROR - 2022-11-16 21:59:45 --> mysqli_sql_exception: Table 'projectteambeta.migrations' doesn't exist in engine in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MigrationRunner.php(653): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MigrationRunner.php(180): CodeIgniter\Database\MigrationRunner->getHistory('')
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+ERROR - 2022-11-16 22:11:21 --> mysqli_sql_exception: Tablespace for table '`projectteambeta`.`migrations`' exists. Please DISCARD the tablespace before IMPORT in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `m...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `m...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `m...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `m...')
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MigrationRunner.php(806): CodeIgniter\Database\Forge->createTable('migrations', true)
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+ERROR - 2022-11-16 22:17:33 --> mysqli_sql_exception: Tablespace for table '`projectteambeta`.`migrations`' exists. Please DISCARD the tablespace before IMPORT in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `m...', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `m...')
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `m...')
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `m...')
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MigrationRunner.php(806): CodeIgniter\Database\Forge->createTable('migrations', true)
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}

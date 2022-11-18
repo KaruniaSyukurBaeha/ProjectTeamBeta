@@ -1,0 +1,34 @@
+ERROR - 2022-11-13 22:49:08 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', '', 3306, '', 0)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#12 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\spark(98): CodeIgniter\CLI\Console->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Database\Config.php(109): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Config::forge()
+#4 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#7 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#8 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#9 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#11 E:\Kumpulan Project Vs code\ProjectBetaTeam\projectteambeta\spark(98): CodeIgniter\CLI\Console->run()
+#12 {main}
